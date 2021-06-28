@@ -1,0 +1,74 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image:url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  max-width:93%;
+  margin:2%;
+}
+
+.header {
+
+  position: absolute;
+  top: 1%;
+  left: 2%;
+  width:94%;
+}
+
+.intro {
+  position:absolute;
+  color:white;
+  font-size:150%;
+  font-weight:bold;
+}
+
+.video {
+  position:absolute;
+  top:30%;
+  left:30%;
+}
+
+.text {
+  color:white;
+  text-align:center;
+}
+
+.ww {
+  position:absolute;
+  top:85%;
+  left:3%;
+}
+
+.jp {
+  position:absolute;
+  top:85%;
+  left:23%;
+}
+
+.j {
+  position:absolute;
+  top:85%;
+  left:43%;
+}
+
+.hs {
+  position:absolute;
+  top:85%;
+  left:63%;
+}
+
+.mk {
+  position:absolute;
+  top:85%;
+  left:83%;
+}
+
+.greet {
+  position:absolute;
+  top:30%;
+  color:white;
+}
