@@ -1,0 +1,196 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    where to whatch
+{% endblock %}
+
+{% block main %}
+<div class="container">
+    <div id="castcrew" class="row">
+        <a {% if request.path == '/cast' %}class="active"{% endif %} href="/cast"><h4>CAST</h4></a>
+        <a {% if request.path == '/crew' %}class="active"{% endif %} href="/crew"><h4>CREW</h4></a>
+    </div>
+    <hr style="height:2px;border-width:0;color:green;background-color:#3fb573">
+  <div style="padding-bottom: 20px;" class="row">
+    <div class="col-sm">
+        <img class="cc" src="https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_800x600_walter-white.jpg">
+    </div>
+
+    <div class="col-sm">
+        <h2 style="color: #5ab87c;">
+            Walter White
+        </h2>
+        <h4>
+            Brian Cranston
+        </h4>
+        <p>Walter Hartwell White Sr., also known by his clandestine alias Heisenberg, He is a chemistry teacher that learns he has cancer and becomes a meth manufacturer.</p>
+    </div>
+  </div>
+
+  <div style="padding-bottom: 20px;" class="row">
+    <div class="col-sm">
+        <img class="cc" src="https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_800x600_jesse-pinkman.jpg">
+    </div>
+    <div class="col-sm">
+        <h2 style="color: #5ab87c;">
+           Jesse Pinkman
+        </h2>
+        <h4>
+            Aaron Paul
+        </h4>
+        <p>Jesse Pinkman is a crystal meth cook and dealer, and works with his former high school chemistry teacher, Walter White in a meth operation. Jesse is the only character besides Walt to appear in every episode of the show.</p> 
+    </div>
+  </div>
+
+  <div style="padding-bottom: 20px;" class="row">
+    <div class="col-sm">
+        <img class="cc" src="https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_800x600_skyler-white.jpg">
+    </div>
+    <div class="col-sm">
+        <h2 style="color: #5ab87c;">
+            Skyler White
+        </h2>
+        <h4>
+            Anna Gunn
+        </h4>
+        <p>Skyler White is Walte's wife, a mother of two and co-owner of A1A Car Wash.</p>
+    </div>
+  </div>
+
+  <div style="padding-bottom: 20px;" class="row">
+    <div class="col-sm">
+        <img class="cc" src="https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_800x600_hank-schrader.jpg">
+    </div>
+    <div class="col-sm">
+        <h2 style="color: #5ab87c;">
+            Hank Schrader
+        </h2>
+        <h4>
+            Dean Norris
+        </h4>
+        <p>the brother-in-law of main character Walter White, and is a Drug Enforcement Administration (DEA) agent in Albuquerque, New Mexico. Throughout the series, he leads the investigation of the methamphetamine cook "Heisenberg" </p>
+    </div>
+  </div>
+
+  <div style="padding-bottom: 20px;" class="row">
+    <div class="col-sm">
+        <img class="cc" src="https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_800x600_walter-white-jr.jpg">
+    </div>
+    <div class="col-sm">
+        <h2 style="color: #5ab87c;">
+            Walter White, Jr.
+        </h2>
+        <h4>
+            RJ Mitte
+        </h4>
+        <p>is the son of main protagonist Walter White and his wife Skyler. He has cerebral palsy, as manifested in speech difficulties and impaired motor control, for which he uses crutches.</p>
+    </div>
+  </div>
+  
+  <div style="padding-bottom: 20px;" class="row">
+    <div class="col-sm">
+        <img class="cc" src="https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_800x600_saul-goodman.jpg">
+    </div>
+    <div class="col-sm">
+        <h2 style="color: #5ab87c;">
+            Saul Goodman
+        </h2>
+        <h4>
+            Bob Odenkirk
+        </h4>
+        <p>Saul Goodman is Walt and Jesse's attorney. He's the quintessential shady lawyer.</p>
+    </div>
+  </div>
+
+  <div style="padding-bottom: 20px;" class="row">
+    <div class="col-sm">
+        <img class="cc" src="https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_800x600_maria-schrader.jpg">
+    </div>
+    <div class="col-sm">
+        <h2 style="color: #5ab87c;">
+            Marie Schrader 
+        </h2>
+        <h4>
+            Betsy Brandt
+        </h4>
+        <p>Marie is Skyler's sister and the wife of DEA agent Hank Schrader.</p>
+    </div>
+  </div>
+
+  <div style="padding-bottom: 20px;" class="row">
+    <div class="col-sm">
+        <img class="cc" src="https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_800x600_mike-ehrmantraut.jpg">
+    </div>
+    <div class="col-sm">
+        <h2 style="color: #5ab87c;">
+            Mike Ehrmantraut
+        </h2>
+        <h4>
+            Jonathan Banks
+        </h4>
+        <p>Mike Ehrmantraut is a former Philadelphia police officer who works for Gus Fring—and, on occasion, Saul Goodman—as a private investigator, head of security, cleaner, and hitman.</p>
+    </div>
+  </div>
+
+  <div style="padding-bottom: 20px;" class="row">
+    <div class="col-sm">
+        <img class="cc" src="https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_800x600_gustavo-fring.jpg">
+    </div>
+    <div class="col-sm">
+        <h2 style="color: #5ab87c;">
+            Gustavo Fring
+        </h2>
+        <h4>
+            Giancarlo Esposito
+        </h4>
+        <p>Gustavo Fring is a major methamphetamine distributor in the Southwestern United States who uses several legitimate businesses, including a chain of successful fast food fried chicken restaurants called Los Pollos Hermanos (The Chicken Brothers) and an industrial laundry facility called Lavanderia Brillante, as fronts for a vast drug operation.</p>
+    </div>
+  </div>
+
+  <div style="padding-bottom: 20px;" class="row">
+    <div class="col-sm">
+        <img class="cc" src="https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_800x600_jane-margolis.jpg">
+    </div>
+    <div class="col-sm">
+        <h2 style="color: #5ab87c;">
+            Jane Margolis
+        </h2>
+        <h4>
+           Krysten Ritter 
+        </h4>
+        <p>Jane Margolis was a tattoo artist and Jesse Pinkman's neighbor, landlord and girlfriend. She was also a recovering drug addict and the daughter of Donald Margolis, an air-traffic controller.</p>
+    </div>
+  </div>
+
+  <div style="padding-bottom: 20px;" class="row">
+    <div class="col-sm">
+        <img class="cc" src="https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_800x600_todd-alquist.jpg">
+    </div>
+    <div class="col-sm">
+        <h2 style="color: #5ab87c;">
+            Todd Alquist
+        </h2>
+        <h4>
+            Jesse Plemons
+        </h4>
+        <p>The youngest and freshest-faced member of the Vamonos Pest team, Todd is quiet and hard-working. He makes an early impression on Walt when he alerts him to a nanny-cam in a house that Walt and Jesse plan to cook meth in.</p>
+    </div>
+  </div>
+
+  <div style="padding-bottom: 20px;" class="row">
+    <div class="col-sm">
+        <img class="cc" src="https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_800x600_lydia-rodarte-quayle.jpg">
+    </div>
+    <div class="col-sm">
+        <h2 style="color: #5ab87c;">
+            Lydia Rodarte-Quayle
+        </h2>
+        <h4>
+            Laura Fraser
+        </h4>
+        <p>Lydia Rodarte-Quayle was the Head of Logistics at Madrigal Electromotive GmbH, and was based at their office in Houston, Texas. She supplied methylamine to Gustavo Fring prior to the collapse of Gus' Drug Empire, and later aligned herself with Walt's Drug Empire and eventually with Jack Welker's Gang.</p>
+    </div>
+  </div>
+
+</div>
+{% endblock %}
